@@ -1,0 +1,18 @@
+<p>
+{% if name %}
+  The numberyou entered is {{number}}.
+  You can update it in the form below:
+
+{% else %}
+  Please enter the number in the form below:
+{% endif %}
+</p>
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.number.label }} {{ form.number}}
+    <br>
+        {{ form.submit() }}
+</form>
+
+<p>Factorial of a Number: {{fact}}</p>
