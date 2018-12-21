@@ -1,0 +1,18 @@
+h1{
+  font-family:Calibri;
+  font-style: italic;
+  text-align: center;
+  color: blue;
+}
+h2{
+  font-family: cursive;
+  text-align: center;
+  color: pink;
+}
+p{
+  font-family: 'Lobster', cursive
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+}
