@@ -1,0 +1,13 @@
+from flask import Flask, render_template
+app=Flask(__name__)
+@app.route('/index')
+def index():
+    num1=55 
+    num2=33
+    total=num1+num2
+    diff=num1-num2
+    prod=num1*num2
+    div_result=float(num1/num2)
+    return render_template('math.html',**locals())
+if __name__=='__main__':
+    app.run()

@@ -1,0 +1,11 @@
+str1=raw_input("enter the first string:")
+str2=raw_input("enter the second string:")
+
+if str1 == str2:
+    print "draw"
+elif (str1=="rock")and (str2=="suiccer"):
+    print "rock is win"
+elif (str1=="suiccer") and (srt2=="paper"):
+    print "suisser is win"
+    
+    
